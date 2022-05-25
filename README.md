@@ -1,5 +1,7 @@
 # my-first-library-project
 
+Reference: https://www.geeksforgeeks.org/how-to-create-your-own-android-library-and-publish-it-in-github/
+
 ## Add it in your settings.gradle at the end of repositories:
 ```
 dependencyResolutionManagement {
