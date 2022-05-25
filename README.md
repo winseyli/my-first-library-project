@@ -30,9 +30,9 @@ implementation 'com.github.winseyli:my-first-library-project:[branch_name]-SNAPS
         android:layout_height="wrap_content"
         android:text="Hello World!"
         tools:text="text" />
+```
 
-...
-
+```
 largeHelloWorldText.setBold("Large Text")
 regularHelloWorldText.setNormal("Regular Text")
 ```
