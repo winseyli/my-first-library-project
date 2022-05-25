@@ -1,7 +1,6 @@
 # my-first-library-project
 
 ## Add it in your settings.gradle at the end of repositories:
-
 ```
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -22,4 +21,13 @@ implementation 'com.github.winseyli:my-first-library-project:X.X.X'
 ### Branch
 ```
 implementation 'com.github.winseyli:my-first-library-project:[branch_name]-SNAPSHOT'
+```
+
+## Usage
+```
+<com.example.android.mylibrary.LargeRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        tools:text="text" />
 ```
